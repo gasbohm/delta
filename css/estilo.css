@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridsbody {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+}
+
+/*ENCABEZADO SITIO WEB*/
+.header {
+    display: flex;
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.gridheader {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+}
+
+main {
+    background-image: url(../assets/img/fondopesasrusas.png);
+}
+
+
+.pesas {
+    width: 1350px;
+    height: 400px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 150px;
+
+}
+
+#ingresar {
+    display: inline-flex;
+    width: 140px;
+    height: 35px;
+    color: cornflowerblue;
+    background-color: black;
+    font-family: sans-serif;
+    border-radius: 15%;
+    align-items: center;
+    cursor: pointer;
+    justify-items: center;
+}
+
+#ingresar a:hover {
+    color: black;
+    background-color: cornflowerblue;
+}
+
+/*MENU HORIZONTAL*/
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover {
+    background-color: cadetblue;
+}
+
+/*INDEX*/
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.imagendefondo {
+    max-width: 100%;
+    height: auto;
+}
+
+.superpuesta {
+    width: 200px;
+    height: auto;
+}
+
+.mujer {
+    width: 200px;
+    height: auto;
+    border-radius: 12%;
+}
+.muj {
+    width: 200px;
+    height: 300px;
+    border-radius: 12%;
+}
+.pelota {
+    width: 200px;
+    height: auto;
+    border-radius: 12%;
+}
+
+.gridmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    padding-top: 02%;
+    padding-bottom: 02%;
+
+}
+.gym {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    padding-top: 02%;
+    padding-bottom: 02%;
+
+}
+
+.instalaciones {
+    display: grid;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+    border-radius: 12%;
+}
+.textosuperpuesto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    max-width: 100%;
+    height: 67px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 05px;
+    padding-left: 50%;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+}
+
+.mapa {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height: 300px;
+    border-radius: 10%;
+    font-size: 25px;
+    font-family: sans-serif
+    
+}
+
+.cards h1 {
+    font-size: 32px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.imagendefondo {
+    position: relative;
+    display: inline-block;
+}
+
+/*NOVEDADES*/
+.estiramiento {
+    width: 450px;
+    height: auto;
+}
+
+.cardsestirar {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: 265px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.cardsestirar h2 {
+    font-size: 28px;
+    color: cornflowerblue;
+}
+
+.gridmainnov {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    padding: 27px;
+
+}
+
+/*NUTRICION*/
+.fondonutricion {
+    background-image: url(../assets/img/nutricion.png);
+    background-position: 100%;
+    border-radius: 10%;
+    width: 350px;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.gridmainnut {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+
+
+}
+
+.cardsnutricion {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: auto;
+    border-radius: 10%;
+    font-size: 25px;
+    font-family: sans-serif
+}
+
+.cardsnutricion h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.formulario {
+    border-radius: 7%;
+    height: 290px;
+    margin: 20px;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.datos {
+    margin-top: 21px;
+}
+
+/*PROGRAMA*/
+
+.contenedorprograma {
+    display: flex;
+    justify-content: center;
+    padding: 29px;
+    justify-content: space-evenly;
+}
+
+.start {
+    width: 400px;
+    height: 300px;
+}
+
+.cardstart {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardstart h2 {
+    font-size: 27px;
+    color: white;
+}
+
+.funcional {
+    width: 400px;
+    height: 300px;
+}
+
+.cardfuncional {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardfuncional h2 {
+    font-size: 26px;
+    color: palevioletred;
+}
+
+.fitness {
+
+    width: 400px;
+    height: 300px;
+}
+
+.cardfitness {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardfitness h2 {
+    font-size: 27px;
+    color: blueviolet;
+}
+
+.advanced {
+    width: 400px;
+    height: 300px;
+}
+
+.cardadvanced {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardadvanced h2 {
+    font-size: 27px;
+    color: brown;
+}
+
+/*COACHES*/
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    padding-top: 02%;
+    padding-bottom: 02%;
+
+
+}
+
+.agustin {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardagustin {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 220px;
+    height: 450px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardagustin h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.patricia {
+
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardpatricia {
+
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 450px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardpatricia h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.matias {
+
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardmatias {
+
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 450px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardmatias h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+@media (max-width: 768px) {
+    .menu li a {
+        font-size: 09px;
+
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+#ingresar {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+       
+    }
+    .superpuesta {
+        width: 150px;
+        height: auto;
+    }
+
+    .cards {
+
+        text-align: center;
+        width: 500px;
+        height: auto;
+        font-size: 18px;
+
+    }
+
+    .cardfuncional {
+
+        width: 150px;
+        height: 300px;
+        border-radius: 10%;
+        font-size: 13px;
+    }
+
+
+    .cardstart {
+        width: 150px;
+        height: 300px;
+        border-radius: 10%;
+        font-size: 13px;
+    }
+
+    .cardfitness {
+
+        width: 150px;
+        height: 300px;
+        border-radius: 10%;
+        font-size: 13px
+    }
+
+    .cardadvanced {
+        width: 150px;
+        height: 300px;
+        border-radius: 10%;
+        font-size: 13px
+    }
+}
+
+@media (max-width: 320px) {
+    .menu li a {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .gridheader {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        place-items: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+#ingresar {
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+       
+    }
+
+.grids {
+    gap: 20px;
+}
+
+    .superpuesta {
+        flex-direction: column;
+        width: 110px;
+        height: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 180px;
+        height: auto;
+        font-size: 11px;
+    }
+
+    .gridmain {
+        flex-direction: column;
+
+
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .textosuperpuesto {
+
+        font-size: small;
+    }
+
+    .redes {
+        padding-left: 10px;
+    }
+
+    .contenedorprograma {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .grids {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
