@@ -493,6 +493,9 @@ a {
     font-size: 32px;
     color: cornflowerblue;
 }
+footer a{
+    color: white;
+}
 
 @media (max-width: 768px) {
     .menu li a {
