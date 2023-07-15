@@ -493,7 +493,8 @@ a {
     font-size: 32px;
     color: cornflowerblue;
 }
-footer a{
+
+footer a {
     color: white;
 }
 
@@ -561,10 +562,19 @@ footer a{
 }
 
 @media (max-width: 425px) {
+
+    .header {
+        display: flex;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+
     .menu li a {
         display: flex;
-        flex-direction: column;
-        font-size: 10px;
+        font-size: 9px;
+        justify-content: center;
+        align-items: center;
     }
 
     .gridheader {
@@ -572,19 +582,21 @@ footer a{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-items: center;
-        place-items: center;
         align-items: center;
     }
 
     .logo {
         width: 100px;
+
     }
 
     #ingresar {
+        display: grid;
         width: 100px;
         height: 35px;
         font-size: 10px;
-
+        justify-content: center;
+        align-items: center;
     }
 
     .grids {
@@ -606,16 +618,57 @@ footer a{
 
     .gridmain {
         flex-direction: column;
-
-
     }
 
     main {
         flex-direction: column;
     }
 
-    .textosuperpuesto {
+    .gridmainnut {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
 
+    .cardsnutricion {
+        width: 280px;
+        font-size: 15px;
+    }
+
+    .cardsnutricion h2 {
+        font-size: 32px;
+        color: cornflowerblue;
+    }
+    .fondonutricion {
+        width: 280px;
+        height: auto;
+        font-size: 13px;
+    }
+    .gridmainnov {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    
+    }
+
+    .estiramiento {
+        width: 280px;
+        height: auto;
+    }
+    
+    .cardsestirar {
+        width: 280px;
+        height: auto;
+        font-size: 15px;
+    }
+    
+    .cardsestirar h2 {
+        font-size: 28px;
+        color: cornflowerblue;
+    }
+    .textosuperpuesto {
         font-size: small;
     }
 
@@ -635,5 +688,38 @@ footer a{
         flex-direction: column;
         align-items: center;
     }
-
+    .gridmain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+        padding-top: 02%;
+        padding-bottom: 02%;
+        background-color: black;
+    
+    }
+    .gym {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1f 1fr 1fr 1fr;
+        justify-items: center;
+        padding-top: 02%;
+        padding-bottom: 02%;
+        background-color: black;
+    }
+    .instalaciones {
+        font-size: 20px;
+    }
+        .superpuesta {
+            width: 200px;
+            height: auto;
+        }
+        .cards {
+         
+            width: 280px;
+            height: auto;
+            border-radius: 10%;
+            font-size: 20px;
+            font-family: sans-serif
+        }
 }
