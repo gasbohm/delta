@@ -103,7 +103,7 @@ main {
 
 }
 
-a{
+a {
     text-decoration: none;
     color: cornflowerblue;
 }
@@ -123,11 +123,13 @@ a{
     height: auto;
     border-radius: 12%;
 }
+
 .muj {
     width: 200px;
     height: 300px;
     border-radius: 12%;
 }
+
 .pelota {
     width: 200px;
     height: auto;
@@ -143,6 +145,7 @@ a{
     padding-bottom: 02%;
 
 }
+
 .gym {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -171,6 +174,7 @@ a{
     height: 300px;
     border-radius: 12%;
 }
+
 .textosuperpuesto {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -214,7 +218,6 @@ a{
     border-radius: 10%;
     font-size: 25px;
     font-family: sans-serif
-    
 }
 
 .cards h1 {
@@ -501,12 +504,13 @@ a{
         width: 100px;
     }
 
-#ingresar {
+    #ingresar {
         width: 120px;
         height: 30px;
         font-size: 11px;
-       
+
     }
+
     .superpuesta {
         width: 150px;
         height: auto;
@@ -553,12 +557,13 @@ a{
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .menu li a {
         display: flex;
         flex-direction: column;
         font-size: 10px;
     }
+
     .gridheader {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -572,16 +577,16 @@ a{
         width: 60px;
     }
 
-#ingresar {
+    #ingresar {
         width: 100px;
         height: 25px;
         font-size: 10px;
-       
+
     }
 
-.grids {
-    gap: 20px;
-}
+    .grids {
+        gap: 20px;
+    }
 
     .superpuesta {
         flex-direction: column;
