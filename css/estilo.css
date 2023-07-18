@@ -87,7 +87,7 @@ main {
     display: flex;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding : 14px 16px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -289,8 +289,6 @@ a {
    font-weight: bold;
    padding: 20px;
    margin: 5px 0;
-   
- 
 }
 .custom-bg h4 {
     color: cornflowerblue;
@@ -366,7 +364,7 @@ a {
 }
 
 .cardstart h2 {
-    font-size: 27px;
+    font-size: 26px;
     color: white;
 }
 
@@ -409,7 +407,7 @@ a {
 }
 
 .cardfitness h2 {
-    font-size: 27px;
+    font-size: 26px;
     color: blueviolet;
 }
 
@@ -429,7 +427,7 @@ a {
 }
 
 .cardadvanced h2 {
-    font-size: 27px;
+    font-size: 26px;
     color: brown;
 }
 
@@ -442,8 +440,6 @@ a {
     justify-items: center;
     padding-top: 02%;
     padding-bottom: 02%;
-
-
 }
 
 .agustin {
@@ -461,7 +457,8 @@ a {
     width: 220px;
     height: 450px;
     border-radius: 10%;
-    font-family: sans-serif
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 .cardagustin h2 {
@@ -486,7 +483,8 @@ a {
     width: 240px;
     height: 450px;
     border-radius: 10%;
-    font-family: sans-serif
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 .cardpatricia h2 {
@@ -511,7 +509,8 @@ a {
     width: 240px;
     height: 450px;
     border-radius: 10%;
-    font-family: sans-serif
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 .cardmatias h2 {
@@ -523,7 +522,7 @@ footer a {
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .menu li a {
         font-size: 11px;
 
@@ -541,49 +540,305 @@ footer a {
     }
 
     .superpuesta {
-        width: 150px;
+        width: 130px;
         height: auto;
+    }
+    
+    .mujer {
+        width:130px;
+        height: auto;
+        border-radius: 12%;
+    }
+    
+    .muj {
+        width: 130px;
+        height: 300px;
+        border-radius: 12%;
+    }
+    
+    .pelota {
+        width: 100px;
+        height: auto;
+        border-radius: 12%;
     }
 
     .cards {
-
         text-align: center;
-        width: 500px;
+        width: 300px;
         height: auto;
-        font-size: 18px;
+        font-size: 15px;
+
+    }
+    .cards h1{
+        font-size: 24px;
+
+    }
+    .img {
+        width: 140px;
+        height: 200px;
+        border-radius: 12%;
+    }
+    .instalaciones {
+        font-size: 29px;
 
     }
 
+
     .cardfuncional {
 
-        width: 150px;
-        height: 300px;
+        width: 160px;
+        height: 270px;
         border-radius: 10%;
         font-size: 13px;
     }
 
 
     .cardstart {
-        width: 150px;
-        height: 300px;
+        width: 160px;
+        height: 270px;
         border-radius: 10%;
         font-size: 13px;
     }
 
     .cardfitness {
 
-        width: 150px;
-        height: 300px;
+        width: 160px;
+        height: 270px;
         border-radius: 10%;
         font-size: 13px
     }
 
     .cardadvanced {
-        width: 150px;
-        height: 300px;
+        width: 160px;
+        height: 270px;
         border-radius: 10%;
         font-size: 13px
     }
+    .cardsnutricion {
+        width: 450px;
+        font-size: 22px;
+    }
+
+    .cardsnutricion h2 {
+        font-size: 22px;
+        color: cornflowerblue;
+    }
+    .custom-bg {
+        display: flex;
+       width: 400px;
+       height: auto;
+       font-weight: bold;
+       padding: 10px;
+       margin: 5px 0;
+    }
+    .cardsestirar {
+        text-align: center;
+        color: white;
+        background-color: black;
+        width: 510px;
+        height: auto;
+        border-radius: 10%;
+        font-family: sans-serif;
+        font-size: medium;
+        padding: 10px;
+    }
+    
+    .cardsestirar h2 {
+        font-size: 22px;
+        color: cornflowerblue;
+    }
+    
+    .estiramiento {
+        width: 380px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .menu li a {
+        font-size: 9px;
+        padding: 6px;
+
+    }
+    .gridheader {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+  
+        
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    #ingresar {
+        width: 100px;
+        height: 40px;
+        font-size: 11px;
+
+    }
+
+    .superpuesta {
+        width: 100px;
+        height: auto;
+    }
+    
+    .mujer {
+        width:100px;
+        height: auto;
+        border-radius: 12%;
+    }
+    
+    .muj {
+        width: 100px;
+        height: 300px;
+        border-radius: 12%;
+    }
+    
+    .pelota {
+        width: 100px;
+        height: auto;
+        border-radius: 12%;
+    }
+
+    .cards {
+        text-align: center;
+        width: 280px;
+        height: auto;
+        font-size: 12px;
+
+    }
+    .cards h1{
+        font-size: 21px;
+
+    }
+    .img {
+        width: 120px;
+        height: 200px;
+        border-radius: 12%;
+    }
+    .instalaciones {
+        font-size: 16px;
+        height: 40px;
+
+    }
+
+    .cardfuncional {
+
+        width: 130px;
+        height: 230px;
+        border-radius: 10%;
+        font-size: 11px;
+    }
+    .cardfuncional h2 {
+        font-size: 20px;
+        
+    }
+
+    .cardstart {
+        width: 130px;
+        height: 230px;
+        border-radius: 10%;
+        font-size: 11px;
+    }
+    .cardstart h2 {
+        font-size: 20px;
+        
+    }
+    .cardfitness {
+
+        width: 130px;
+        height: 230px;
+        border-radius: 10%;
+        font-size: 11px;
+    }
+    .cardfitness h2 {
+        font-size: 20px;
+        
+    }
+
+    .cardadvanced {
+        width: 130px;
+        height: 230px;
+        border-radius: 10%;
+        font-size: 11px;
+    }
+    .cardadvanced h2 {
+        font-size: 20px;
+        
+    }
+    .cardagustin {
+        width: 180px;
+        height: auto;
+        font-size: 14px;
+        
+    }
+    
+    .cardagustin h2 {
+        font-size: 18px;
+        color: cornflowerblue;
+    }
+    .cardpatricia {
+        width: 180px;
+        height: auto;
+        font-size: 14px;
+        
+    }
+    
+    .cardpatricia h2 {
+        font-size: 18px;
+        color: cornflowerblue;
+    }
+    .cardmatias {
+        width: 180px;
+        height: auto;
+        font-size: 14px;
+        
+    }
+    
+    .cardmatias h2 {
+        font-size: 18px;
+        color: cornflowerblue;
+    }
+    .cardsnutricion {
+        width: 350px;
+        font-size: 17px;
+    }
+
+ 
+    .custom-bg {
+        display: flex;
+       width: 300px;
+       height: auto;
+       font-weight: bold;
+       padding: 10px;
+       margin: 5px 0;
+       font-size: 12px;
+    }
+    .cardsestirar {
+        text-align: center;
+        color: white;
+        background-color: black;
+        width: 300px;
+        height: auto;
+        border-radius: 10%;
+        font-family: sans-serif;
+        font-size: mediup;
+        padding: 10px;
+    }
+    
+    .cardsestirar h2 {
+        font-size: 20px;
+        color: cornflowerblue;
+    }
+    
+
+    .estiramiento {
+        width: 310px;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 425px) {
@@ -597,27 +852,39 @@ footer a {
 
     .menu li a {
         display: flex;
-        font-size: 9px;
+        font-size: 11px;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        padding: 13px;
     }
-
+    .menu{
+        display: flex;
+        padding: 10px 3px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2px 0;
+      
+    }
+    
     .gridheader {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr;
         justify-items: center;
         align-items: center;
+        
     }
 
     .logo {
-        width: 100px;
+        width: 90px;
 
     }
 
     #ingresar {
         display: grid;
-        width: 100px;
+        width: 85px;
         height: 35px;
         font-size: 10px;
         justify-content: center;
@@ -770,18 +1037,22 @@ footer a {
         .cardstart {
             width: 280px;
             height: auto;
+            padding: 10px;
         }
         .cardfuncional {
             width: 280px;
             height: auto;
+            padding: 10px;
         }
         .cardfitness {
             width: 280px;
             height: auto;
+            padding: 10px;
         }
         .cardadvanced {
             width: 280px;
             height: auto;
+            padding: 10px;
         }
 
         .cardstart h2 {
