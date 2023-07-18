@@ -895,6 +895,25 @@ footer a {
         gap: 20px;
     }
 
+    .cardmatias {
+        width: 280px;
+        height: auto;
+        font-size: 14px;
+        
+    }
+    .cardagustin {
+        width: 280px;
+        height: auto;
+        font-size: 14px;
+        
+    }
+    .cardpatricia {
+        width: 280px;
+        height: auto;
+        font-size: 14px;
+        
+    }
+
     .superpuesta {
         flex-direction: column;
         width: 110px;
