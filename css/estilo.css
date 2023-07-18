@@ -657,13 +657,13 @@ footer a {
 
 @media (max-width: 768px) {
     .menu li a {
-        font-size: 9px;
+        font-size: 11px;
         padding: 6px;
 
     }
     .gridheader {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 5fr 1fr;
   
         
     }
