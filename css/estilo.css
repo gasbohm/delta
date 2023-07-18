@@ -5,6 +5,7 @@
 }
 
 
+
 /*ENCABEZADO SITIO WEB*/
 .header {
     display: flex;
@@ -667,7 +668,7 @@ footer a {
         font-size: 13px;
     }
     .custom-bg {
-       width: 280px;
+       width: 300px;
        height: auto;
        font-weight: bold;
        font-size: 10px;
