@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NUTRICION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <link rel="icon" type="image/x-icon" href="../assets/img/logodelta.png">
+    
 </head>
 
 <body>
@@ -37,42 +39,10 @@
     <main>
         <div class="gridmainnut">
             <div class="contenedor">
-                <form class="fondonutricion">
-                    <fieldset class="formulario">
-                        <div>
-                            <h2>OFRECEMOS ASESORAMIENTO Y PLANES NUTRICIONALES</h2>
-                        </div>
-                        <div class="info">
-                            <h3> POR MAS INFORMACION CONSULTA A NUESTRA LICENCIADA EN NUTRICION MARIA PEREZ</h3>
-                        </div>
-                        <div class="datos">
-                            <div>
-                                <label id="Nombre" for="Nombre">Nombre:</label>
-                                <input class="input" id="Nombre" type="text" required width="300px">
-                            </div>
-                            <div>
-                                <label id="apellido" for="apellido"> Apellido:</label>
-                                <input class="input" id="apellido" type="text" required width="300px">
-                            </div>
-                            <div>
-                                <label id="telefono" for="telefono">telefono:</label>
-                                <input class="input" id="telefono" type="number" name="telefono" placeholder=""
-                                    required>
-                            </div>
-                            <div>
-                                <label for="ENVIAR"></label>
-                                <button style="background-color: cornflowerblue;" type="submit">ENVIAR</button>
-                            </div>
-                        </div>
-
-
-                    </fieldset>
-                </form>
-            </div>
+                
             <div class="cardsnutricion">
                 <section>
                     <article>
-                        <h2> NUTRICION </h2>
                         <p> Ademas del ejercicio fisico, otro de los pilares mas importantes para llevar una vida activa
                             y sana
                             es la buena alimentacion.
@@ -83,6 +53,60 @@
                 </section>
             </div>
         </div>
+        <form class="row g-3 needs-validation custom-bg" novalidate>
+            <div>
+                <h4>OFRECEMOS ASESORAMIENTO Y PLANES NUTRICIONALES</h4>
+                <p>POR MAS INFORMACION CONSULTA CON NUESTRA LICENCIA EN NUTRICION MARIA PEREZ</p>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label">NOMBRE</label>
+              <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label">APELLIDO</label>
+              <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip03" class="form-label">CIUDAD</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+            <div class="col-md-8 position-relative">
+              <label for="validationTooltipUsername" class="form-label">CORREO ELECTRONICO</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+
+            
+         
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip05" class="form-label">TELEFONO</label>
+              <input type="text" class="form-control" id="validationTooltip05" required>
+              <div class="invalid-tooltip">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">ENVIAR</button>
+            </div>
+          </form>
+        
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
     </main>
 
     <!-- PIE -->

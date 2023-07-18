@@ -52,7 +52,7 @@ main {
 
 #ingresar {
     display: inline-flex;
-    width: 140px;
+    width: 135px;
     height: 35px;
     color: cornflowerblue;
     background-color: black;
@@ -61,6 +61,7 @@ main {
     align-items: center;
     cursor: pointer;
     justify-items: center;
+    font-size: 13px;
 }
 
 #ingresar a:hover {
@@ -96,13 +97,6 @@ main {
 }
 
 /*INDEX*/
-.contenedor {
-    display: flex;
-    justify-content: center;
-    padding: 14px;
-
-}
-
 a {
     text-decoration: none;
     color: cornflowerblue;
@@ -188,7 +182,6 @@ a {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .redes {
@@ -203,10 +196,20 @@ a {
     display: flex;
     align-items: center;
 }
+.tel p{
+    margin: 0;
+    padding: 0;
+}
+
+.mapa p{
+    margin: 0;
+    padding: 0;
+}
 
 .mapa {
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .cards {
@@ -246,6 +249,7 @@ a {
     border-radius: 10%;
     font-family: sans-serif;
     font-size: large;
+    padding: 10px;
 }
 
 .cardsestirar h2 {
@@ -265,22 +269,39 @@ a {
 }
 
 /*NUTRICION*/
-.fondonutricion {
-    background-image: url(../assets/img/nutricion.png);
-    background-position: 100%;
-    border-radius: 10%;
-    width: 350px;
-    height: auto;
-    font-family: sans-serif;
+.contenedor {
+    display: flex;
+    justify-content: center;
+   justify-content: space-evenly;
+
+}
+
+.custom-bg {
+    display: flex;
+   color: white;
+   background-color:black;
+   border-radius: 10%;
+   justify-items: center;
+   place-items: center;
+   align-items: center;
+   padding: 13px;
+   width: 430px;
+   height: auto;
+   font-weight: bold;
+ 
+}
+.custom-bg h4 {
+    color: cornflowerblue;
 }
 
 .gridmainnut {
     display: grid;
-    grid-template-columns: 4fr 5fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
     place-items: center;
     align-items: center;
+    padding: 30PX;
 
 
 }
@@ -292,8 +313,10 @@ a {
     width: 600px;
     height: auto;
     border-radius: 10%;
-    font-size: 25px;
-    font-family: sans-serif
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 10px;
+
 }
 
 .cardsnutricion h2 {
