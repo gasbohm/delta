@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    .gridheader {
+        display: grid;
+        grid-template-columns: 1fr 6fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        place-items: center;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        transition: transform 0.4s;
+    }
+    .logo:hover {
+        transform: rotate(360deg)
+    }
+    
+    #ingresar {
+        display: inline-flex;
+        width: 135px;
+        height: 35px;
+        color: cornflowerblue;
+        background-color: black;
+        font-family: sans-serif;
+        border-radius: 15%;
+        align-items: center;
+        cursor: pointer;
+        justify-items: center;
+        font-size: 13px;
+    }
+    
+    #ingresar a:hover {
+        color: black;
+        background-color: cornflowerblue;
+    }
+    a {
+        text-decoration: none;
+        color: cornflowerblue;
+    }
+}
+nav {
+     ul {
+        display: flex;
+        list-style-type: none;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    li {
+        float: left;
+        list-style-type: none;
+    }
+    
+     li a {
+        display: flex;
+        color: white;
+        text-align: center;
+        padding : 14px 16px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+     li a:hover {
+        background-color: cadetblue;
+    }
+    
+}
+main {
+    background-image: url(../assets/img/fondopesasrusas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    .superpuesta {
+        width: 200px;
+        height: auto;
+        transition: transform 0.4s;
+    }
+    
+    .superpuesta:hover {
+        transform: scale(1.1)
+    }
+    
+    .mujer {
+        width: 200px;
+        height: auto;
+        border-radius: 12%;
+        transition: transform 0.4s;
+    }
+    
+    .mujer:hover {
+        transform: scale(1.1);
+    }
+    
+    .muj {
+        width: 200px;
+        height: 300px;
+        border-radius: 12%;
+    }
+    
+    .pelota {
+        width: 200px;
+        height: auto;
+        border-radius: 12%;
+    }
+    
+    .gridmain {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        padding-top: 02%;
+        padding-bottom: 02%;
+    
+    }
+    
+    .gym {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        padding-top: 02%;
+        padding-bottom: 02%;
+    
+    }
+    
+    .instalaciones {
+        display: grid;
+       
+        color: white;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-items: center;
+        align-items: center;
+    background: rgb(0,0,3);
+    background: linear-gradient(0deg, rgba(0,0,3,1) 0%, rgba(20,45,68,1) 86%);
+    }
+    
+    .img {
+        width: 200px;
+        height: 300px;
+        border-radius: 12%;
+        transition: transform 0.4s;
+    }
+    .img:hover {
+        transform: scale(1.1);
+    }
+    section {
+        padding: 20px;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height: 300px;
+    border-radius: 10%;
+    font-size: 25px;
+    font-family: sans-serif
+    }
+    h1 {
+        font-size: 32px;
+    color: cornflowerblue;
+    text-align: center;
+    }
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    max-width: 100%;
+    height: 67px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    .textosuperpuesto {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 10px;
+        justify-items: center;
+        place-items: center;
+        align-items: center;
+        max-width: 100%;
+        height: 67px;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .redes {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 05px;
+        padding-left: 50%;
+    }
+    
+    .tel {
+        display: flex;
+        align-items: center;
+    }
+    .tel p{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mapa p{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mapa {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+    
+}
+
+.contenedorprograma {
+    display: flex;
+    justify-content: center;
+    padding: 29px;
+    justify-content: space-evenly;
+
+
+.start {
+    width: 400px;
+    height: 300px;
+}
+
+.cardstart {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardstart h2 {
+    font-size: 26px;
+    color: white;
+}
+
+.funcional {
+    width: 400px;
+    height: 300px;
+}
+
+.cardfuncional {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardfuncional h2 {
+    font-size: 26px;
+    color: palevioletred;
+}
+
+.fitness {
+
+    width: 400px;
+    height: 300px;
+    
+
+}
+
+.cardfitness {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif;
+}
+
+.cardfitness h2 {
+    font-size: 26px;
+    color: blueviolet;
+}
+
+.advanced {
+    width: 400px;
+    height: 300px;
+}
+
+.cardadvanced {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: sans-serif
+}
+
+.cardadvanced h2 {
+    font-size: 26px;
+    color: brown;
+}
+
+}

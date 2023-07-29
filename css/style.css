@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-image: url(../assets/img/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+header .gridheader {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  transition: transform 0.4s;
+}
+header .logo:hover {
+  transform: rotate(360deg);
+}
+header #ingresar {
+  display: inline-flex;
+  width: 135px;
+  height: 35px;
+  color: cornflowerblue;
+  background-color: black;
+  font-family: sans-serif;
+  border-radius: 15%;
+  align-items: center;
+  cursor: pointer;
+  justify-items: center;
+  font-size: 13px;
+}
+header #ingresar a:hover {
+  color: black;
+  background-color: cornflowerblue;
+}
+header a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+nav li {
+  float: left;
+  list-style-type: none;
+}
+nav li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav li a:hover {
+  background-color: cadetblue;
+}
+
+main {
+  background-image: url(../assets/img/fondopesasrusas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+}
+main .superpuesta {
+  width: 200px;
+  height: auto;
+  transition: transform 0.4s;
+}
+main .superpuesta:hover {
+  transform: scale(1.1);
+}
+main .mujer {
+  width: 200px;
+  height: auto;
+  border-radius: 12%;
+  transition: transform 0.4s;
+}
+main .mujer:hover {
+  transform: scale(1.1);
+}
+main .muj {
+  width: 200px;
+  height: 300px;
+  border-radius: 12%;
+}
+main .pelota {
+  width: 200px;
+  height: auto;
+  border-radius: 12%;
+}
+main .gridmain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+main .gym {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+main .instalaciones {
+  display: grid;
+  color: white;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-items: center;
+  align-items: center;
+  background: rgb(0, 0, 3);
+  background: linear-gradient(0deg, rgb(0, 0, 3) 0%, rgb(20, 45, 68) 86%);
+}
+main .img {
+  width: 200px;
+  height: 300px;
+  border-radius: 12%;
+  transition: transform 0.4s;
+}
+main .img:hover {
+  transform: scale(1.1);
+}
+main section {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  width: 450px;
+  height: 300px;
+  border-radius: 10%;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+main h1 {
+  font-size: 32px;
+  color: cornflowerblue;
+  text-align: center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+  max-width: 100%;
+  height: 67px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .textosuperpuesto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+  max-width: 100%;
+  height: 67px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .redes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+  padding-left: 50%;
+}
+footer .tel {
+  display: flex;
+  align-items: center;
+}
+footer .tel p {
+  margin: 0;
+  padding: 0;
+}
+footer .mapa p {
+  margin: 0;
+  padding: 0;
+}
+footer .mapa {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.contenedorprograma {
+  display: flex;
+  justify-content: center;
+  padding: 29px;
+  justify-content: space-evenly;
+}
+.contenedorprograma .start {
+  width: 400px;
+  height: 300px;
+}
+.contenedorprograma .cardstart {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;
+  font-family: sans-serif;
+}
+.contenedorprograma .cardstart h2 {
+  font-size: 26px;
+  color: white;
+}
+.contenedorprograma .funcional {
+  width: 400px;
+  height: 300px;
+}
+.contenedorprograma .cardfuncional {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;
+  font-family: sans-serif;
+}
+.contenedorprograma .cardfuncional h2 {
+  font-size: 26px;
+  color: palevioletred;
+}
+.contenedorprograma .fitness {
+  width: 400px;
+  height: 300px;
+}
+.contenedorprograma .cardfitness {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;
+  font-family: sans-serif;
+}
+.contenedorprograma .cardfitness h2 {
+  font-size: 26px;
+  color: blueviolet;
+}
+.contenedorprograma .advanced {
+  width: 400px;
+  height: 300px;
+}
+.contenedorprograma .cardadvanced {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;
+  font-family: sans-serif;
+}
+.contenedorprograma .cardadvanced h2 {
+  font-size: 26px;
+  color: brown;
+}
+
+/*# sourceMappingURL=style.css.map */
