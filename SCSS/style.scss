@@ -88,6 +88,16 @@ main {
     background-size: cover;
     background-position: center;
     background-position: center;
+    .cards {
+        padding: 20px;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height: 300px;
+    border-radius: 10%;
+    font-size: 25px;
+    font-family: sans-serif
+    }
     .superpuesta {
         width: 200px;
         height: auto;
@@ -165,16 +175,7 @@ main {
     .img:hover {
         transform: scale(1.1);
     }
-    section {
-        padding: 20px;
-    color: white;
-    background-color: black;
-    width: 450px;
-    height: 300px;
-    border-radius: 10%;
-    font-size: 25px;
-    font-family: sans-serif
-    }
+    
     h1 {
         font-size: 32px;
     color: cornflowerblue;
@@ -182,19 +183,7 @@ main {
     }
 }
 footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    gap: 10px;
-    justify-items: center;
-    place-items: center;
-    align-items: center;
-    max-width: 100%;
-    height: 67px;
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    .textosuperpuesto {
+    
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
@@ -207,7 +196,7 @@ footer {
         background-color: black;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-    }
+    
     .redes {
         display: flex;
         align-items: center;
@@ -238,6 +227,7 @@ footer {
     
 }
 
+/*PROGRAMA*/
 .contenedorprograma {
     display: flex;
     justify-content: center;
@@ -330,5 +320,195 @@ footer {
     font-size: 26px;
     color: brown;
 }
+
+}
+
+/*COACHES*/
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    padding-top: 02%;
+    padding-bottom: 02%;
+
+
+.agustin {
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardagustin {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 220px;
+    height: 450px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.cardagustin h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.patricia {
+
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardpatricia {
+
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 450px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.cardpatricia h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.matias {
+
+    top: 04%;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+}
+
+.cardmatias {
+
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 450px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.cardmatias h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+}
+/*NUTRICION*/
+.contenedor {
+    display: flex;
+    justify-content: center;
+   justify-content: space-evenly;
+
+}
+
+.custom-bg {
+    display: flex;
+   color: white;
+   background-color:black;
+   border-radius: 10%;
+   justify-items: center;
+   place-items: center;
+   align-items: center;
+   width: 430px;
+   height: auto;
+   font-weight: bold;
+   padding: 20px;
+   margin: 5px 0;
+}
+.custom-bg h4 {
+    color: cornflowerblue;
+}
+
+.gridmainnut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    padding: 30px;
+
+
+}
+
+.cardsnutricion {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: auto;
+    border-radius: 10%;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+
+.cardsnutricion h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.formulario {
+    border-radius: 7%;
+    height: 290px;
+    margin: 20px;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.datos {
+    margin-top: 21px;
+}
+/*NOVEDADES*/
+.estiramiento {
+    width: 450px;
+    height: auto;
+}
+
+.cardsestirar {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: 265px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+.cardsestirar h2 {
+    font-size: 28px;
+    color: cornflowerblue;
+}
+
+.gridmainnov {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    padding: 41px;
 
 }
