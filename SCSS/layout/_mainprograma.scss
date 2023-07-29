@@ -1,94 +1,68 @@
 .contenedorprograma {
-    display: flex;
-    justify-content: center;
-    padding: 29px;
-    justify-content: space-evenly;
+    @include flex;
 
+    .start {
+        width: 400px;
+        height: 300px;
+    }
 
-.start {
-    width: 400px;
-    height: 300px;
-}
+    .cardstart {
 
-.cardstart {
+        text-align: center;
+        color: white;
+        background-color: black;
+        width: 200px;
+        height: 300px;
+        border-radius: 10%;
+        font-family: $font-family-cardsprograma;
+    }
 
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 200px;
-    height: 300px;
-    border-radius: 10%;
-    font-family: $font-family-cardsprograma;
-}
+    .cardstart h2 {
+        font-size: $font-siza-cardsprograma;
+        color: white;
+    }
 
-.cardstart h2 {
-    font-size: $font-siza-cardsprograma;
-    color: white;
-}
+    .funcional {
 
-.funcional {
-    width: 400px;
-    height: 300px;
-}
+        width: 400px;
+        height: 300px;
+    }
 
-.cardfuncional {
+    .cardfuncional {
+        @extend .cardstart
+    }
 
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 200px;
-    height: 300px;
-    border-radius: 10%;
-    font-family: $font-family-cardsprograma;
-}
+    .cardfuncional h2 {
+        font-size: $font-siza-cardsprograma;
+        color: palevioletred;
+    }
 
-.cardfuncional h2 {
-    font-size: $font-siza-cardsprograma;
-    color: palevioletred;
-}
+    .fitness {
+        width: 400px;
+        height: 300px;
+    }
 
-.fitness {
+    .cardfitness {
+        @extend .cardstart
+    }
 
-    width: 400px;
-    height: 300px;
-    
+    .cardfitness h2 {
+        font-size: $font-siza-cardsprograma;
+        color: blueviolet;
+    }
 
-}
+    .advanced {
+        width: 400px;
+        height: 300px;
+    }
 
-.cardfitness {
+    .cardadvanced {
+        @extend .cardstart
+    }
 
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 200px;
-    height: 300px;
-    border-radius: 10%;
-    font-family: $font-family-cardsprograma;
-}
-
-.cardfitness h2 {
-    font-size: $font-siza-cardsprograma;
-    color: blueviolet;
-}
-
-.advanced {
-    width: 400px;
-    height: 300px;
-}
-
-.cardadvanced {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    width: 200px;
-    height: 300px;
-    border-radius: 10%;
-    font-family: $font-family-cardsprograma;
-}
-
-.cardadvanced h2 {
-    font-size: $font-siza-cardsprograma;
-    color: brown;
-}
+    .cardadvanced h2 {
+        font-size: $font-siza-cardsprograma;
+        color: brown;
+    }
 
 }

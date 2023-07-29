@@ -1,10 +1,6 @@
 footer {
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    @include grid (1fr 1fr 1fr,1fr,center);
     gap: 10px;
-    justify-items: center;
     place-items: center;
     align-items: center;
     max-width: 100%;

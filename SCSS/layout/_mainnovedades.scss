@@ -21,10 +21,7 @@
 }
 
 .gridmainnov {
-    display: grid;
-    grid-template-columns: 4fr 5fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
+    @include grid (4fr 5fr,1fr,center);
     place-items: center;
     align-items: center;
     padding: 41px;

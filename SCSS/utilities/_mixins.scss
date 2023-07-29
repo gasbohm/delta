@@ -1,0 +1,11 @@
+@mixin flex  {
+    display: flex;
+    padding: 29px;
+    justify-content: space-evenly;
+}
+@mixin grid ($col,$rows,$justify) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $rows;
+    justify-items: $justify;
+}
