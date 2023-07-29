@@ -37,7 +37,8 @@
 }
 
 .cardpatricia {
-@extend .cardagustin
+@extend .cardagustin;
+
 }
 
 .cardpatricia h2 {
@@ -54,7 +55,8 @@
 }
 
 .cardmatias {
-    @extend .cardagustin
+    @extend .cardagustin;
+    
 }
 
 .cardmatias h2 {
