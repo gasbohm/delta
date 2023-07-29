@@ -1,0 +1,94 @@
+.contenedorprograma {
+    display: flex;
+    justify-content: center;
+    padding: 29px;
+    justify-content: space-evenly;
+
+
+.start {
+    width: 400px;
+    height: 300px;
+}
+
+.cardstart {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: $font-family-cardsprograma;
+}
+
+.cardstart h2 {
+    font-size: $font-siza-cardsprograma;
+    color: white;
+}
+
+.funcional {
+    width: 400px;
+    height: 300px;
+}
+
+.cardfuncional {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: $font-family-cardsprograma;
+}
+
+.cardfuncional h2 {
+    font-size: $font-siza-cardsprograma;
+    color: palevioletred;
+}
+
+.fitness {
+
+    width: 400px;
+    height: 300px;
+    
+
+}
+
+.cardfitness {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: $font-family-cardsprograma;
+}
+
+.cardfitness h2 {
+    font-size: $font-siza-cardsprograma;
+    color: blueviolet;
+}
+
+.advanced {
+    width: 400px;
+    height: 300px;
+}
+
+.cardadvanced {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    font-family: $font-family-cardsprograma;
+}
+
+.cardadvanced h2 {
+    font-size: $font-siza-cardsprograma;
+    color: brown;
+}
+
+}

@@ -1,0 +1,52 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+   justify-content: space-evenly;
+
+}
+
+
+.gridmainnut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
+    padding: 30px;
+
+
+}
+
+
+.cardsnutricion {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: auto;
+    border-radius: 10%;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+
+.cardsnutricion h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.formulario {
+    border-radius: 7%;
+    height: 290px;
+    margin: 20px;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.datos {
+    margin-top: 21px;
+}

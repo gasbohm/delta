@@ -76,6 +76,64 @@ nav li a:hover {
   background-color: cadetblue;
 }
 
+.custom-bg {
+  display: flex;
+  color: white;
+  background-color: black;
+  border-radius: 10%;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+  width: 430px;
+  height: auto;
+  font-weight: bold;
+  padding: 20px;
+  margin: 5px 0;
+}
+
+.custom-bg h4 {
+  color: cornflowerblue;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+  max-width: 100%;
+  height: 67px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .redes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+  padding-left: 50%;
+}
+footer .tel {
+  display: flex;
+  align-items: center;
+}
+footer .tel p {
+  margin: 0;
+  padding: 0;
+}
+footer .mapa p {
+  margin: 0;
+  padding: 0;
+}
+footer .mapa {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
 main {
   background-image: url(../assets/img/fondopesasrusas.png);
   background-repeat: no-repeat;
@@ -164,46 +222,75 @@ main h1 {
   text-align: center;
 }
 
-footer {
+.grids {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 10px;
   justify-items: center;
-  place-items: center;
-  align-items: center;
-  max-width: 100%;
-  height: 67px;
-  background-color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.grids .agustin {
+  top: 4%;
+  left: 10%;
+  width: 400px;
+  height: 500px;
+}
+.grids .cardagustin {
+  text-align: center;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  width: 220px;
+  height: 450px;
+  border-radius: 10%;
+  font-family: sans-serif;
+  padding: 10px;
 }
-footer .redes {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 5px;
-  padding-left: 50%;
+.grids .cardagustin h2 {
+  font-size: 32px;
+  color: cornflowerblue;
 }
-footer .tel {
-  display: flex;
-  align-items: center;
+.grids .patricia {
+  top: 4%;
+  left: 10%;
+  width: 400px;
+  height: 500px;
 }
-footer .tel p {
-  margin: 0;
-  padding: 0;
+.grids .cardpatricia {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 240px;
+  height: 450px;
+  border-radius: 10%;
+  font-family: sans-serif;
+  padding: 10px;
 }
-footer .mapa p {
-  margin: 0;
-  padding: 0;
+.grids .cardpatricia h2 {
+  font-size: 32px;
+  color: cornflowerblue;
 }
-footer .mapa {
-  display: flex;
-  align-items: center;
-  padding: 0;
+.grids .matias {
+  top: 4%;
+  left: 10%;
+  width: 400px;
+  height: 500px;
+}
+.grids .cardmatias {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 240px;
+  height: 450px;
+  border-radius: 10%;
+  font-family: sans-serif;
+  padding: 10px;
+}
+.grids .cardmatias h2 {
+  font-size: 32px;
+  color: cornflowerblue;
 }
 
-/*PROGRAMA*/
 .contenedorprograma {
   display: flex;
   justify-content: center;
@@ -279,100 +366,42 @@ footer .mapa {
   color: brown;
 }
 
-/*COACHES*/
-.grids {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+.estiramiento {
+  width: 450px;
+  height: auto;
 }
-.grids .agustin {
-  top: 4%;
-  left: 10%;
-  width: 400px;
-  height: 500px;
-}
-.grids .cardagustin {
+
+.cardsestirar {
   text-align: center;
   color: white;
   background-color: black;
-  width: 220px;
-  height: 450px;
+  width: 600px;
+  height: 265px;
   border-radius: 10%;
   font-family: sans-serif;
+  font-size: large;
   padding: 10px;
 }
-.grids .cardagustin h2 {
-  font-size: 32px;
-  color: cornflowerblue;
-}
-.grids .patricia {
-  top: 4%;
-  left: 10%;
-  width: 400px;
-  height: 500px;
-}
-.grids .cardpatricia {
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 240px;
-  height: 450px;
-  border-radius: 10%;
-  font-family: sans-serif;
-  padding: 10px;
-}
-.grids .cardpatricia h2 {
-  font-size: 32px;
-  color: cornflowerblue;
-}
-.grids .matias {
-  top: 4%;
-  left: 10%;
-  width: 400px;
-  height: 500px;
-}
-.grids .cardmatias {
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 240px;
-  height: 450px;
-  border-radius: 10%;
-  font-family: sans-serif;
-  padding: 10px;
-}
-.grids .cardmatias h2 {
-  font-size: 32px;
+
+.cardsestirar h2 {
+  font-size: 28px;
   color: cornflowerblue;
 }
 
-/*NUTRICION*/
+.gridmainnov {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+  padding: 41px;
+}
+
 .contenedor {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-}
-
-.custom-bg {
-  display: flex;
-  color: white;
-  background-color: black;
-  border-radius: 10%;
-  justify-items: center;
-  place-items: center;
-  align-items: center;
-  width: 430px;
-  height: auto;
-  font-weight: bold;
-  padding: 20px;
-  margin: 5px 0;
-}
-
-.custom-bg h4 {
-  color: cornflowerblue;
 }
 
 .gridmainnut {
@@ -414,39 +443,6 @@ footer .mapa {
 
 .datos {
   margin-top: 21px;
-}
-
-/*NOVEDADES*/
-.estiramiento {
-  width: 450px;
-  height: auto;
-}
-
-.cardsestirar {
-  text-align: center;
-  color: white;
-  background-color: black;
-  width: 600px;
-  height: 265px;
-  border-radius: 10%;
-  font-family: sans-serif;
-  font-size: large;
-  padding: 10px;
-}
-
-.cardsestirar h2 {
-  font-size: 28px;
-  color: cornflowerblue;
-}
-
-.gridmainnov {
-  display: grid;
-  grid-template-columns: 4fr 5fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  place-items: center;
-  align-items: center;
-  padding: 41px;
 }
 
 /*# sourceMappingURL=style.css.map */
