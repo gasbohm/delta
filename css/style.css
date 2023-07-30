@@ -141,7 +141,16 @@ main {
   background-position: center;
   background-position: center;
 }
-main .cards {
+
+.gridmain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.gridmain .cards {
   padding: 20px;
   color: white;
   background-color: black;
@@ -151,50 +160,35 @@ main .cards {
   font-size: 25px;
   font-family: sans-serif;
 }
-main .superpuesta {
+.gridmain .superpuesta {
   width: 200px;
   height: auto;
   transition: transform 0.4s;
 }
-main .superpuesta:hover {
+.gridmain .superpuesta:hover {
   transform: scale(1.1);
 }
-main .mujer {
+.gridmain .mujer {
   width: 200px;
   height: auto;
   border-radius: 12%;
   transition: transform 0.4s;
 }
-main .mujer:hover {
+.gridmain .mujer:hover {
   transform: scale(1.1);
 }
-main .muj {
+.gridmain .muj {
   width: 200px;
   height: 300px;
   border-radius: 12%;
 }
-main .pelota {
+.gridmain .pelota {
   width: 200px;
   height: auto;
   border-radius: 12%;
 }
-main .gridmain {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-main .gym {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-main .instalaciones {
+
+.instalaciones {
   display: grid;
   color: white;
   width: 100%;
@@ -207,16 +201,28 @@ main .instalaciones {
   background: rgb(0, 0, 3);
   background: linear-gradient(0deg, rgb(0, 0, 3) 0%, rgb(20, 45, 68) 86%);
 }
-main .img {
+
+.gym {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.img {
   width: 200px;
   height: 300px;
   border-radius: 12%;
   transition: transform 0.4s;
 }
-main .img:hover {
+
+.img:hover {
   transform: scale(1.1);
 }
-main h1 {
+
+h1 {
   font-size: 32px;
   color: cornflowerblue;
   text-align: center;
@@ -409,32 +415,32 @@ main h1 {
     height: 40px;
     font-size: 11px;
   }
-  .superpuesta {
+  .gridmain .superpuesta {
     width: 130px;
     height: auto;
   }
-  .mujer {
+  .gridmain .mujer {
     width: 130px;
     height: auto;
     border-radius: 12%;
   }
-  .muj {
+  .gridmain .muj {
     width: 130px;
     height: 300px;
     border-radius: 12%;
   }
-  .pelota {
+  .gridmain .pelota {
     width: 100px;
     height: auto;
     border-radius: 12%;
   }
-  .cards {
+  .gridmain .cards {
     text-align: center;
     width: 300px;
     height: auto;
     font-size: 15px;
   }
-  .cards h1 {
+  .gridmain .cards h1 {
     font-size: 24px;
   }
   .img {
@@ -445,25 +451,25 @@ main h1 {
   .instalaciones {
     font-size: 29px;
   }
-  .cardfuncional {
+  .contenedorprograma .cardfuncional {
     width: 160px;
     height: 270px;
     border-radius: 10%;
     font-size: 13px;
   }
-  .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
+  .contenedorprograma .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
     width: 160px;
     height: 270px;
     border-radius: 10%;
     font-size: 13px;
   }
-  .cardfitness {
+  .contenedorprograma .cardfitness {
     width: 160px;
     height: 270px;
     border-radius: 10%;
     font-size: 13px;
   }
-  .cardadvanced {
+  .contenedorprograma .cardadvanced {
     width: 160px;
     height: 270px;
     border-radius: 10%;
@@ -522,35 +528,43 @@ main h1 {
     height: 40px;
     font-size: 11px;
   }
-  .superpuesta {
+  .gridmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .gridmain .superpuesta {
     width: 100px;
     height: auto;
   }
-  .mujer {
+  .gridmain .mujer {
     width: 100px;
     height: auto;
     border-radius: 12%;
   }
-  .muj {
+  .gridmain .muj {
     width: 100px;
     height: 300px;
     border-radius: 12%;
   }
-  .pelota {
+  .gridmain .pelota {
     width: 100px;
     height: auto;
     border-radius: 12%;
   }
-  .cards {
+  .gridmain .cards {
     text-align: center;
     width: 280px;
     height: auto;
     font-size: 12px;
   }
-  .cards h1 {
+  .gridmain .cards h1 {
     font-size: 21px;
   }
-  .img {
+  .gridmain .img {
     width: 120px;
     height: 200px;
     border-radius: 12%;
@@ -559,40 +573,40 @@ main h1 {
     font-size: 16px;
     height: 40px;
   }
-  .cardfuncional {
+  .contenedorprograma .cardfuncional {
     width: 130px;
     height: 230px;
     border-radius: 10%;
     font-size: 11px;
   }
-  .cardfuncional h2 {
+  .contenedorprograma .cardfuncional h2 {
     font-size: 20px;
   }
-  .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
+  .contenedorprograma .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
     width: 130px;
     height: 230px;
     border-radius: 10%;
     font-size: 11px;
   }
-  .cardstart h2, .contenedorprograma .cardfuncional h2, .contenedorprograma .cardfitness h2, .contenedorprograma .cardadvanced h2 {
+  .contenedorprograma .cardstart h2, .contenedorprograma .cardfuncional h2, .contenedorprograma .cardfitness h2, .contenedorprograma .cardadvanced h2 {
     font-size: 20px;
   }
-  .cardfitness {
+  .contenedorprograma .cardfitness {
     width: 130px;
     height: 230px;
     border-radius: 10%;
     font-size: 11px;
   }
-  .cardfitness h2 {
+  .contenedorprograma .cardfitness h2 {
     font-size: 20px;
   }
-  .cardadvanced {
+  .contenedorprograma .cardadvanced {
     width: 130px;
     height: 230px;
     border-radius: 10%;
     font-size: 11px;
   }
-  .cardadvanced h2 {
+  .contenedorprograma .cardadvanced h2 {
     font-size: 20px;
   }
   .cardagustin, .grids .cardpatricia, .grids .cardmatias {
@@ -699,20 +713,23 @@ main h1 {
   .grids {
     gap: 20px;
   }
-  .cardmatias {
+  .grids .cardmatias {
     width: 280px;
     height: auto;
     font-size: 14px;
   }
-  .cardagustin, .grids .cardpatricia, .grids .cardmatias {
+  .grids .cardagustin, .grids .cardpatricia, .grids .cardmatias {
     width: 280px;
     height: auto;
     font-size: 14px;
   }
-  .cardpatricia {
+  .grids .cardpatricia {
     width: 280px;
     height: auto;
     font-size: 14px;
+  }
+  .gridmain {
+    flex-direction: column;
   }
   .superpuesta {
     flex-direction: column;
@@ -724,9 +741,6 @@ main h1 {
     width: 180px;
     height: auto;
     font-size: 11px;
-  }
-  .gridmain {
-    flex-direction: column;
   }
   main {
     flex-direction: column;
@@ -783,17 +797,7 @@ main h1 {
     font-size: small;
   }
   footer .redes {
-    width: 22px;
-    height: auto;
-  }
-  .redes {
     padding-left: 10px;
-  }
-  .contenedorprograma {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
   }
   .grids {
     display: flex;
@@ -809,67 +813,75 @@ main h1 {
     padding-bottom: 2%;
     background-color: black;
   }
-  .gym {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1f 1fr 1fr 1fr;
-    justify-items: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: black;
-  }
-  .instalaciones {
-    font-size: 20px;
-    color: cornflowerblue;
-  }
-  .superpuesta {
+  .gridmain .superpuesta {
     width: 250px;
     height: auto;
   }
-  .cards {
+  .gridmain .cards {
     width: 300px;
     height: auto;
     border-radius: 10%;
     font-size: 20px;
     font-family: sans-serif;
   }
-  .img {
-    width: 290px;
-  }
-  .mujer {
+  .gridmain .mujer {
     width: 250px;
     height: 350px;
   }
-  .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
+  .gym {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr1fr;
+    justify-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+  }
+  .gym .img {
+    padding: 13px;
+    width: 250px;
+    height: 350px;
+  }
+  .instalaciones {
+    font-size: 20px;
+    color: cornflowerblue;
+  }
+  .contenedorprograma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contenedorprograma .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
     width: 280px;
     height: auto;
     padding: 10px;
   }
-  .cardfuncional {
+  .contenedorprograma .cardfuncional {
     width: 280px;
     height: auto;
     padding: 10px;
   }
-  .cardfitness {
+  .contenedorprograma .cardfitness {
     width: 280px;
     height: auto;
     padding: 10px;
   }
-  .cardadvanced {
+  .contenedorprograma .cardadvanced {
     width: 280px;
     height: auto;
     padding: 10px;
   }
-  .cardstart h2, .contenedorprograma .cardfuncional h2, .contenedorprograma .cardfitness h2, .contenedorprograma .cardadvanced h2 {
+  .contenedorprograma .cardstart h2, .contenedorprograma .cardfuncional h2, .contenedorprograma .cardfitness h2, .contenedorprograma .cardadvanced h2 {
     font-size: 20px;
   }
-  .cardfuncional h2 {
+  .contenedorprograma .cardfuncional h2 {
     font-size: 20px;
   }
-  .cardfitness h2 {
+  .contenedorprograma .cardfitness h2 {
     font-size: 20px;
   }
-  .cardadvanced h2 {
+  .contenedorprograma .cardadvanced h2 {
     font-size: 20px;
   }
 }

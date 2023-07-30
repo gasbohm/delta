@@ -23,6 +23,10 @@
 
     }
 }
+.gridmain {
+    @include grid (1fr 1fr 1fr 2fr,1fr,center);
+    padding-top: 02%;
+    padding-bottom: 02%;
     .superpuesta {
         width: 100px;
         height: auto;
@@ -62,14 +66,15 @@
         height: 200px;
         border-radius: 12%;
     }
+    
+    }
     .instalaciones {
         font-size: 16px;
         height: 40px;
 
     }
-
+    .contenedorprograma {
     .cardfuncional {
-
         width: 130px;
         height: 230px;
         border-radius: 10%;
@@ -112,6 +117,7 @@
         font-size: 20px;
         
     }
+}
     .cardagustin {
         width: 180px;
         height: auto;

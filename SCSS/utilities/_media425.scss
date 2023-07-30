@@ -50,7 +50,7 @@
 
     .grids {
         gap: 20px;
-    }
+    
 
     .cardmatias {
         width: 280px;
@@ -70,6 +70,11 @@
         font-size: 14px;
         
     }
+}
+
+    .gridmain {
+        flex-direction: column;
+    }
 
     .superpuesta {
         flex-direction: column;
@@ -84,9 +89,7 @@
         font-size: 11px;
     }
 
-    .gridmain {
-        flex-direction: column;
-    }
+  
 
     main {
         flex-direction: column;
@@ -151,22 +154,14 @@
     }
     footer {
         font-size: small;
-        .redes {
-            width: 22px;
-            height: auto;
-        }
-    }
+       
+ 
 
     .redes {
         padding-left: 10px;
     }
+}
 
-    .contenedorprograma {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
 
     .grids {
         display: flex;
@@ -174,28 +169,11 @@
         align-items: center;
     }
     .gridmain {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        justify-items: center;
+        @include grid (1fr,1fr 1fr 1fr, center);
         padding-top: 02%;
         padding-bottom: 02%;
         background-color: black;
-    
-    }
-    .gym {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1f 1fr 1fr 1fr;
-        justify-items: center;
-        padding-top: 02%;
-        padding-bottom: 02%;
-        background-color: black;
-    }
-    .instalaciones {
-        font-size: 20px;
-        color: cornflowerblue;
-    }
+
         .superpuesta {
             width: 250px;
             height: auto;
@@ -207,13 +185,35 @@
             font-size: 20px;
             font-family: sans-serif
         }
-        .img{
-            width: 290px;
-        }
+       
         .mujer{
             width: 250px;
             height: 350px;
         }
+    }
+        .gym {
+        @include grid (1fr ,1fr 1fr 1fr 1fr1fr,center);
+        padding-top: 02%;
+        padding-bottom: 02%;
+        background-color: black;
+        .img{
+            padding: 13px;
+            width: 250px;
+            height: 350px;
+        }
+    }
+        
+
+    .instalaciones {
+        font-size: 20px;
+        color: cornflowerblue;
+    }
+    .contenedorprograma {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+   
         .cardstart {
             width: 280px;
             height: auto;
@@ -249,6 +249,6 @@
         .cardadvanced h2 {
             font-size: 20px;
         }
-
+    }
         
 }
