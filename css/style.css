@@ -443,6 +443,25 @@ h1 {
   .gridmain .cards h1 {
     font-size: 24px;
   }
+  .gridmain .contenedor .cardsestirar {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 460px;
+    height: auto;
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 10px;
+  }
+  .gridmain .contenedor .cardsestirar h2 {
+    font-size: 22px;
+    color: cornflowerblue;
+  }
+  .gridmain .contenedor .estiramiento {
+    width: 200px;
+    height: auto;
+  }
   .img {
     width: 140px;
     height: 200px;
@@ -476,8 +495,8 @@ h1 {
     font-size: 13px;
   }
   .cardsnutricion {
-    width: 450px;
-    font-size: 22px;
+    width: 390px;
+    font-size: 20px;
   }
   .cardsnutricion h2 {
     font-size: 22px;
@@ -485,30 +504,11 @@ h1 {
   }
   .custom-bg {
     display: flex;
-    width: 400px;
+    width: 360px;
     height: auto;
     font-weight: bold;
     padding: 10px;
     margin: 5px 0;
-  }
-  .cardsestirar {
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 510px;
-    height: auto;
-    border-radius: 10%;
-    font-family: sans-serif;
-    font-size: medium;
-    padding: 10px;
-  }
-  .cardsestirar h2 {
-    font-size: 22px;
-    color: cornflowerblue;
-  }
-  .estiramiento {
-    width: 380px;
-    height: auto;
   }
 }
 @media (max-width: 800px) {
