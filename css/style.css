@@ -511,7 +511,7 @@ h1 {
     height: auto;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   header .menu li a {
     font-size: 11px;
     padding: 6px;
@@ -609,34 +609,34 @@ h1 {
   .contenedorprograma .cardadvanced h2 {
     font-size: 20px;
   }
-  .cardagustin, .grids .cardpatricia, .grids .cardmatias {
+  .grid .cardagustin, .grid .grids .cardpatricia, .grids .grid .cardpatricia, .grid .grids .cardmatias, .grids .grid .cardmatias {
     width: 180px;
     height: auto;
     font-size: 14px;
   }
-  .cardagustin h2, .grids .cardpatricia h2, .grids .cardmatias h2 {
+  .grid .cardagustin h2, .grid .grids .cardpatricia h2, .grids .grid .cardpatricia h2, .grid .grids .cardmatias h2, .grids .grid .cardmatias h2 {
     font-size: 18px;
     color: cornflowerblue;
   }
-  .cardpatricia {
+  .grid .cardpatricia {
     width: 180px;
     height: auto;
     font-size: 14px;
   }
-  .cardpatricia h2 {
+  .grid .cardpatricia h2 {
     font-size: 18px;
     color: cornflowerblue;
   }
-  .cardmatias {
+  .grid .cardmatias {
     width: 180px;
     height: auto;
     font-size: 14px;
   }
-  .cardmatias h2 {
+  .grid .cardmatias h2 {
     font-size: 18px;
     color: cornflowerblue;
   }
-  .cardsnutricion {
+  .grid .cardsnutricion {
     width: 350px;
     font-size: 17px;
   }
@@ -670,6 +670,222 @@ h1 {
   }
 }
 @media (max-width: 425px) {
+  .header {
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu li a {
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px;
+  }
+  .menu {
+    display: flex;
+    padding: 10px 3px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px 0;
+  }
+  .gridheader {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .logo {
+    width: 90px;
+  }
+  #ingresar {
+    display: grid;
+    width: 85px;
+    height: 35px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grids {
+    gap: 20px;
+  }
+  .grids .cardmatias {
+    width: 280px;
+    height: auto;
+    font-size: 14px;
+  }
+  .grids .cardagustin, .grids .cardpatricia, .grids .cardmatias {
+    width: 280px;
+    height: auto;
+    font-size: 14px;
+  }
+  .grids .cardpatricia {
+    width: 280px;
+    height: auto;
+    font-size: 14px;
+  }
+  .gridmain {
+    flex-direction: column;
+  }
+  .superpuesta {
+    flex-direction: column;
+    width: 110px;
+    height: auto;
+  }
+  .cards {
+    flex-direction: column;
+    width: 180px;
+    height: auto;
+    font-size: 11px;
+  }
+  main {
+    flex-direction: column;
+  }
+  .gridmainnut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+  .cardsnutricion {
+    width: 280px;
+    font-size: 15px;
+  }
+  .cardsnutricion h2 {
+    font-size: 32px;
+    color: cornflowerblue;
+  }
+  .fondonutricion {
+    width: 280px;
+    height: auto;
+    font-size: 13px;
+  }
+  .custom-bg {
+    width: 300px;
+    height: auto;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .contenedor {
+    display: flex;
+    padding: 40px;
+  }
+  .gridmainnov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .estiramiento {
+    width: 280px;
+    height: auto;
+  }
+  .cardsestirar {
+    width: 280px;
+    height: auto;
+    font-size: 15px;
+  }
+  .cardsestirar h2 {
+    font-size: 28px;
+    color: cornflowerblue;
+  }
+  footer {
+    font-size: small;
+  }
+  footer .redes {
+    padding-left: 10px;
+  }
+  .grids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gridmain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+  }
+  .gridmain .superpuesta {
+    width: 250px;
+    height: auto;
+  }
+  .gridmain .cards {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .gridmain .mujer {
+    width: 250px;
+    height: 350px;
+  }
+  .gym {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr1fr;
+    justify-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+  }
+  .gym .img {
+    padding: 13px;
+    width: 250px;
+    height: 350px;
+  }
+  .instalaciones {
+    font-size: 20px;
+    color: cornflowerblue;
+  }
+  .contenedorprograma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contenedorprograma .cardstart, .contenedorprograma .cardfuncional, .contenedorprograma .cardfitness, .contenedorprograma .cardadvanced {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+  }
+  .contenedorprograma .cardfuncional {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+  }
+  .contenedorprograma .cardfitness {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+  }
+  .contenedorprograma .cardadvanced {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+  }
+  .contenedorprograma .cardstart h2, .contenedorprograma .cardfuncional h2, .contenedorprograma .cardfitness h2, .contenedorprograma .cardadvanced h2 {
+    font-size: 20px;
+  }
+  .contenedorprograma .cardfuncional h2 {
+    font-size: 20px;
+  }
+  .contenedorprograma .cardfitness h2 {
+    font-size: 20px;
+  }
+  .contenedorprograma .cardadvanced h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
   .header {
     display: flex;
     background-position: center;
