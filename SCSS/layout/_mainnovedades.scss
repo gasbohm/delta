@@ -1,3 +1,8 @@
+.gridmainnov {
+    @include grid (1fr 1fr,1fr,center);
+    place-items: center;
+    align-items: center;
+    padding: 41px;
 .estiramiento {
     width: 450px;
     height: auto;
@@ -19,11 +24,4 @@
     font-size: 28px;
     color: cornflowerblue;
 }
-
-.gridmainnov {
-    @include grid (4fr 5fr,1fr,center);
-    place-items: center;
-    align-items: center;
-    padding: 41px;
-
 }
