@@ -1,6 +1,6 @@
 #PROYECTO DELTA
 
-! [LOGO DELTA] (assets/img/logodelta.png)
+![LOGO DELTA](assets/img/logodelta.png)
 
 #Lenguajes aplicados: 
 
