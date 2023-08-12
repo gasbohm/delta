@@ -1,5 +1,7 @@
 #PROYECTO DELTA
 
+SITIO WEB PARA GIMANSIO DELTA
+
 ![LOGO DELTA](assets/img/logodelta.png)
 
 #Lenguajes aplicados: 
@@ -19,3 +21,8 @@ COACHES: Presentamos a los profesores que estan a cargo del gimnasio.
 NUTRICION: Tenemos un espacio donde nos preocupamos por tu alimentacion que es muy importante para el rendiemiento fisico.
 
 NOVEDADES: Es un espacio que se va actualizar semanalmente con informacion relacionada al entrenamiento.
+
+PROFESOR: Maximiliano Cardenas
+TUTOR: Joaquin De La Parra
+
+
