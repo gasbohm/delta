@@ -210,15 +210,13 @@ main {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
-.img {
+.gym .img {
   width: 200px;
   height: 300px;
   border-radius: 12%;
   transition: transform 0.4s;
 }
-
-.img:hover {
+.gym .img:hover {
   transform: scale(1.1);
 }
 
@@ -401,16 +399,16 @@ h1 {
 }
 
 @media (max-width: 1024px) {
-  .menu li a {
+  header .menu li a {
     font-size: 11px;
   }
-  .logo {
-    width: 110px;
-  }
-  #ingresar {
+  header .logo {
     width: 120px;
+  }
+  header #ingresar {
+    width: 110px;
     height: 40px;
-    font-size: 11px;
+    font-size: 10px;
   }
   .gridmain .superpuesta {
     width: 130px;
@@ -440,41 +438,32 @@ h1 {
   .gridmain .cards h1 {
     font-size: 24px;
   }
-  .gridmain .gridmainnov {
-    display: grid;
-    grid-template-columns: 4fr 5fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    place-items: center;
-    align-items: center;
-    padding: 41px;
+  .instalaciones {
+    font-size: 29px;
   }
-  .gridmain .gridmainnov .estiramiento {
-    width: 450px;
-    height: auto;
-  }
-  .gridmain .gridmainnov .cardsestirar {
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 600px;
-    height: 265px;
-    border-radius: 10%;
-    font-family: sans-serif;
-    font-size: large;
-    padding: 10px;
-  }
-  .gridmain .gridmainnov .cardsestirar h2 {
-    font-size: 28px;
-    color: cornflowerblue;
-  }
-  .img {
-    width: 140px;
+  .gym .img {
+    width: 130px;
     height: 200px;
     border-radius: 12%;
   }
-  .instalaciones {
-    font-size: 29px;
+  .gridmainnov .estiramiento {
+    width: 330px;
+    height: auto;
+  }
+  .gridmainnov .cardsestirar {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 330px;
+    height: auto;
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .gridmainnov .cardsestirar h2 {
+    font-size: 28px;
+    color: cornflowerblue;
   }
   .contenedorprograma .cardfuncional {
     width: 160px;
@@ -501,7 +490,7 @@ h1 {
     font-size: 13px;
   }
   .cardsnutricion {
-    width: 390px;
+    width: 350px;
     font-size: 20px;
   }
   .cardsnutricion h2 {
@@ -655,7 +644,7 @@ h1 {
     margin: 5px 0;
     font-size: 12px;
   }
-  .cardsestirar {
+  .gridmainnov .cardsestirar {
     text-align: center;
     color: white;
     background-color: black;
@@ -666,11 +655,11 @@ h1 {
     font-size: mediup;
     padding: 10px;
   }
-  .cardsestirar h2 {
+  .gridmainnov .cardsestirar h2 {
     font-size: 20px;
     color: cornflowerblue;
   }
-  .estiramiento {
+  .gridmainnov .estiramiento {
     width: 310px;
     height: auto;
   }
@@ -1002,16 +991,16 @@ h1 {
     align-items: center;
     padding: 15px;
   }
-  .estiramiento {
+  .gridmainnov .estiramiento {
     width: 280px;
     height: auto;
   }
-  .cardsestirar {
-    width: 280px;
+  .gridmainnov .cardsestirar {
+    width: 240px;
     height: auto;
     font-size: 15px;
   }
-  .cardsestirar h2 {
+  .gridmainnov .cardsestirar h2 {
     font-size: 28px;
     color: cornflowerblue;
   }

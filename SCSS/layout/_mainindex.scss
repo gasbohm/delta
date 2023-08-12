@@ -73,10 +73,6 @@ background: linear-gradient(0deg, rgba(0,0,3,1) 0%, rgba(20,45,68,1) 86%);
         @include grid (1fr 1fr 1fr 1fr 1fr,1fr,center);
         padding-top: 02%;
         padding-bottom: 02%;
-    
-    }
-    
-   
     .img {
         width: $width-imagenesindex;
         height: $height-imagenesindex;
@@ -86,6 +82,7 @@ background: linear-gradient(0deg, rgba(0,0,3,1) 0%, rgba(20,45,68,1) 86%);
     .img:hover {
         transform: scale(1.1);
     }
+}
     
     h1 {
         font-size: 32px;
